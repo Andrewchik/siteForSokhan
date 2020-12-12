@@ -895,8 +895,17 @@ hr {
 }
 
 
-/* @media screen and (max-width: 445px){
-  #blue .btn {
-    display: block;
-  }
-} */
+@media screen and (max-width: 780px){
+ #headerwrap h1{
+   font-size: 30px;
+   margin-top: 120px;
+ }
+ #headerwrap h2{
+  font-size: 12px;
+  line-height: 33px;
+ }
+ #headerwrap .btn{
+  margin-top: 50px;
+ }
+}
+
