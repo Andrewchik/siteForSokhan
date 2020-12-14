@@ -29,6 +29,17 @@
 </head>
 
 <body>
+<!-- PRELOADER -->
+<div class="preloader" id="preloader">
+  <div class="cssload-thecube">
+    <div class="cssload-cube cssload-c1"></div>
+    <div class="cssload-cube cssload-c2"></div>
+    <div class="cssload-cube cssload-c4"></div>
+    <div class="cssload-cube cssload-c3"></div>
+  </div>
+</div>
+<!-- /PRELOADER -->
+
   <!-- Fixed navbar -->
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
@@ -46,7 +57,8 @@
           <li><a href="services.html">Курси</a></li>
           <li><a href="about.html">Про нас</a></li>
           <li><a href="#">Інтенсив</a></li>
-          <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+          <li><a href="#r">Тех підтримка</a></li>
+          <!-- <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li> -->
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -169,6 +181,35 @@
   </div> -->
 
 
+  <div id="r">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h4>З'ЯВИЛИСЯ ПИТАННЯ?</h4>
+          <p>Зв'яжіться з нами для уточнення інформації</p>
+          <svg class="t580__arrow-icon_mobile" style="fill:#000000;" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 35 70">
+            <path
+              d="M30.6 47.5c-.6-.5-1.6-.4-2.1.2L19 59.6V5.5c0-.8-.7-1.5-1.5-1.5S16 4.7 16 5.5v54.1L6.5 47.7c-.6-.6-1.5-.7-2.1-.2-.7.5-.8 1.5-.3 2.1l12.2 15.2c.3.4.7.6 1.2.6s.9-.2 1.2-.6l12.2-15.2c.5-.6.4-1.6-.3-2.1z">
+            </path>
+            <path
+              d="M30.6 47.5c-.6-.5-1.6-.4-2.1.2L19 59.6V5.5c0-.8-.7-1.5-1.5-1.5S16 4.7 16 5.5v54.1L6.5 47.7c-.6-.6-1.5-.7-2.1-.2-.7.5-.8 1.5-.3 2.1l12.2 15.2c.3.4.7.6 1.2.6s.9-.2 1.2-.6l12.2-15.2c.5-.6.4-1.6-.3-2.1z">
+            </path>
+          </svg>
+          
+          <div class="input input-group input-group-lg">
+            <input type="email" id='addEmail' type="text" class="form-control" placeholder="Введіть ваш Email">
+            <input id='addMessage' type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Напишіть ваш відгук або запитання">
+          </div>
+          <button type = 'submit' id='sendMessage' class="btn btn-success">НАДІСЛАТИ В <strong>ТЕХ ПІДТРИМКУ</strong></button>
+          
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
   <!-- FOOTER -->
   <div id="f">
     <div class="container">
@@ -186,7 +227,7 @@
 
   <!-- MODAL FOR CONTACT -->
   <!-- Modal -->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -236,10 +277,10 @@
           </div>
         </div>
       </div>
-      <!-- /.modal-content -->
+      <!- /.modal-content -
     </div>
-    <!-- /.modal-dialog -->
-  </div>
+    <!- /.modal-dialog -
+  </div> -->
   <!-- /.modal -->
 
   <!--Courses modal window-->
@@ -381,6 +422,7 @@
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
+    <script src="js/sendInstagram.js"></script>
 
 </body>
 
