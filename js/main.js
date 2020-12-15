@@ -92,6 +92,14 @@ jQuery(document).ready(function( $ ) {
 		  scrollTop: $($(this).attr('href')).offset().top
 		}, 500, 'linear');
 	  });
+
+	  $('#pricesBtn').click(() => {
+		$('.modal').animate({
+			scrollTop: $('#prices').offset().top
+		}, 500);
+	});
+
+	
 });
 
 

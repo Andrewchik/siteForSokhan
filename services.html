@@ -18,6 +18,9 @@
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+   <!-- AOS Libraries CSS Files -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
@@ -201,7 +204,7 @@
             <input type="email" id='addEmail' type="text" class="form-control" placeholder="Введіть ваш Email">
             <input id='addMessage' type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Напишіть ваш відгук або запитання">
           </div>
-          <button type = 'submit' id='sendMessage' class="btn btn-success">НАДІСЛАТИ В <strong>ТЕХ ПІДТРИМКУ</strong></button>
+          <button type = 'submit' id='sendMessage' class="btn-sub btn btn-success">НАДІСЛАТИ В <strong>ТЕХ ПІДТРИМКУ</strong></button>
           
         </div>
       </div>
@@ -311,33 +314,52 @@
               за 20 хвилин в день.</p>
             <p>Створіть кращу версію себе.
               Відчувайте себе впевненіше і красивіше.</p>
-            <a href="#prices"><button class="btn btn-success btn-lg">ВИБРАТИ ТАРИФ І КУПИТИ</button></a>
+            <button id = "pricesBtn" class="btn btn-success btn-lg">ВИБРАТИ ТАРИФ І КУПИТИ</button>
           </div>
           <div class="modal-body_pluses text-center">
             <h3>ЩО ВИ ПОЛУЧАЄТЕ?</h3>
             <div class="modal-body_pluses-discription text-left">
-              <h4>Ефективна програма</h4>
+              <div class="modal-body_pluses-discription_img text-left galochka-flex">
+                <img src="img/galochka.svg" alt="galochka">
+                <h4>Ефективна програма</h4>
+              </div>
+              
               <p class="text-left">за методикою коротких тренувань
                 розроблена досвідченою командою
                 тренерів і лікарів</p>
             </div>
             <div class="modal-body_pluses-discription text-left">
-              <h4>Ефективна програма</h4>
-              <p class="text-left">за методикою коротких тренувань
-                розроблена досвідченою командою
-                тренерів і лікарів</p>
+              <div class="modal-body_pluses-discription_img text-left galochka-flex">
+              <img src="img/galochka.svg" alt="galochka">
+              <h4>Ви в надійних руках</h4>
+              </div>
+              <p class="text-left">супровід та підтримка
+                від нашої команди</p>
             </div>
             <div class="modal-body_pluses-discription text-left">
-              <h4>Ефективна програма</h4>
-              <p class="text-left">за методикою коротких тренувань
-                розроблена досвідченою командою
-                тренерів і лікарів</p>
+              <div class="modal-body_pluses-discription_img text-left galochka-flex">
+              <img src="img/galochka.svg" alt="galochka">
+              <h4>Комфортний режим</h4>
+              </div>
+              <p class="text-left">
+                займайтеся в зручному місці,
+                в зручний час, без обладнання</p>
             </div>
             <div class="modal-body_pluses-discription text-left">
-              <h4>Ефективна програма</h4>
-              <p class="text-left">за методикою коротких тренувань
-                розроблена досвідченою командою
-                тренерів і лікарів</p>
+              <div class="modal-body_pluses-discription_img text-left galochka-flex">
+              <img src="img/galochka.svg" alt="galochka">
+              <h4>Результат</h4>
+              </div>
+              <p class="text-left here">
+                <ul class="result-list">
+                <li>зняття напруги з усього тіла</li>
+                <li>поліпшення постави</li>
+                <li>відновлення балансу м'язів</li>
+                <li>поліпшення кровопостачання мозку
+                  і працездатності</li>
+                <li>здоровий сон і легкість руху</li>
+              </ul>
+            </p>
             </div>
           </div>
 
@@ -421,6 +443,7 @@
     <script src="lib/chart/chart.js"></script>
 
     <!-- Template Main Javascript File -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
     <script src="js/sendInstagram.js"></script>
 
