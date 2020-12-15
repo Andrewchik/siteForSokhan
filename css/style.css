@@ -462,6 +462,7 @@ hr {
 
 #r p {
   color: white;
+  line-height: 35px;
 }
 
 #c h5,p{
@@ -613,6 +614,7 @@ hr {
   display: block;
   margin: 0 auto;
   color: #000;
+  margin-bottom: 10px;
 }
 
 #r h4{
@@ -2283,6 +2285,6 @@ a:focus {
 
 
 /*-------------------*/
-.btn-sub{
-  font-weight: bold;
+#sendMessage button{
+  margin-bottom: 10px;
 }
