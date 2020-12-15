@@ -36,7 +36,7 @@ button:not(.accordion):hover{
   transform: scale(1.2);
 }
 
-ul{
+ul:not(.accordion-ul){
   padding-left: 25px;
   color: rgb(255, 6, 6);
 }
