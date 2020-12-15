@@ -27,10 +27,37 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
 }
 
+button{
+  transition: all .2s;
+}
+
+
+button:hover{
+  transform: scale(1.2);
+}
+
 ul{
   padding-left: 25px;
   color: rgb(255, 6, 6);
 }
+
+.col-lg-4{
+    padding-right: 0px; 
+     padding-left: 0px;
+}
+
+/* .block{
+ width: 350px;
+} */
+
+/* .block:hover{
+  background-color: rgba(244, 248, 0, 0.248);
+} */
+
+/* .block{
+  border: 2px solid #000;
+  margin-left: 10px;
+} */
 
 #r .input{
   display: block;
