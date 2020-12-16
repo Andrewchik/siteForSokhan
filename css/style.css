@@ -336,6 +336,18 @@ hr {
   letter-spacing: 1px;
 }
 
+
+.call_back{
+  padding: 1px;
+  border: 1px solid green;
+  background-color: rgb(72, 230, 19);
+  
+}
+
+.call_back:hover{
+  transform: scale(1.05);
+}
+
 /*TILT*/
 
 .tilt {
@@ -592,7 +604,11 @@ hr {
   border-top: 4px solid #000;
   border-bottom: 4px solid #000;
   line-height: 54px;
+
+ 
 }
+
+
 
 .w i {
   color: #ff7878;
@@ -2347,4 +2363,10 @@ a:focus {
 
 button.accordion{
   padding-right: 45px;
+}
+
+
+.single_accordion p{
+  text-align: left;
+  font-weight: 600;
 }
