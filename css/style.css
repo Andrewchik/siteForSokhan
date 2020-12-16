@@ -336,6 +336,16 @@ hr {
   letter-spacing: 1px;
 }
 
+.group-btn .btn{
+display: block;
+margin: 20px;
+height: 50px;
+font-size: 25px;
+font-weight: bold;
+}
+
+
+
 
 .call_back{
   padding: 1px;
