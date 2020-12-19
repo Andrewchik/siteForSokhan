@@ -1672,10 +1672,13 @@ body {
 }
 
 .flaticon{
-  size: 20px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .cs-item p{
   color: #fff;
 }
+
+
   
