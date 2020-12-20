@@ -29,6 +29,11 @@ body {
   /*--------------------------------------------------------------
   # Back to top button
   --------------------------------------------------------------*/
+  .breadcrumb-text h1{
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
   .back-to-top {
     position: fixed;
     display: none;
@@ -659,6 +664,14 @@ body {
     background: #3498db;
     color: #fff;
     text-decoration: none;
+  }
+  .btn-about{
+    display: block;
+    margin: 0 auto;
+  }
+  .btn-about button{
+   
+   
   }
   
   /*--------------------------------------------------------------
@@ -1684,6 +1697,7 @@ body {
 /* Cards */
 #s{
   margin-top: 20px;
+  margin-bottom: 60px;
 }
 .s-title {
   padding: 20px;
@@ -1765,4 +1779,37 @@ font-size: 20px;
 }
 /*---------------*/
 
+/*Sit block*/
+
+#sit-block{
+  margin-bottom: 40px;
+  background: #000;
   
+}
+
+.sit-title h2{
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+
+
+/*-----------------*/
+
+
+/*Call Back*/
+
+  #call-back{
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .call-back-title h2{
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+
+/*------------------*/
